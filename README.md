@@ -191,6 +191,3 @@ Typical telemetry notification:
 - Tune `kp` first, then add a little `ki`. Leave `kd` at `0.0` unless you see a clear need for damping.
 - If telemetry is too chatty for your client, increase `telemetry_ms` or set it to `0` to disable periodic streaming.
 
-## Known assumptions
-
-I could not machine-extract the two local PDFs in this environment, so the firmware keeps the motor CPR and GPIO mapping configurable instead of hard-coding part-specific values from the datasheets. Update those values after you confirm the exact encoder CPR and your board wiring.
